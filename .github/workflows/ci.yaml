@@ -10,6 +10,10 @@ on:
       - main
       - develop
 
+permissions:
+  checks: write
+  contents: read
+
 jobs:
   ci:
     runs-on: ubuntu-latest
